@@ -1,0 +1,118 @@
+.Index{
+    width: 100%;
+    padding: 200px 15vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index .title{
+    width: 100%;
+    text-align: center;
+}
+.Index .subtitle{
+    width: 100%;
+    margin-bottom: 50px;
+
+    text-align: center;
+    font-style: italic;
+}
+.Index .description{
+    width: 100%;
+    padding: 15px;
+    color: #1a1a1a;
+}
+.Index .image{
+    width: 100%;
+}
+.Index .image:nth-child(odd){
+    display: none;
+}
+.Index .image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Index{
+        margin-top: 100px;
+        padding: 50px;
+    }
+    .Index .description li{
+        font-size: 1em;
+    }
+    .Index .image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Index .image img{
+        width: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Index .description{
+        margin: 5vh 0;
+        font-size: 1em;
+    }
+    .Index .description li{
+        font-size: 1em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Index .title{
+        font-size: 2.5em;
+    }
+    .Index .subtitle{
+        font-size: 1.5em;
+    }
+    .Index .description{
+        margin: 10vh 0;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Index .title{
+        font-size: 3em;
+    }
+    .Index .subtitle{
+        font-size: 2em;
+    }
+    .Index .description{
+        font-size: 1.2em;
+        width: 60%;
+    }
+    .Index .description li{
+        font-size: 0.8em;
+    }
+    .Index .image{
+        width: 40%;
+    }
+    .Index .image:nth-child(odd){
+        display: initial;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Index .title{
+        font-size: 3.5em;
+    }
+    .Index .subtitle{
+        font-size: 2.5em;
+    }
+    .Index .description{
+        margin: 15vh 0;
+        font-size: 1.5em;
+    }
+}

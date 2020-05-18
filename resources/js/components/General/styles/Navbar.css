@@ -1,0 +1,47 @@
+.Navbar,
+.Navbar a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Navbar{
+    z-index: 10;
+    background: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    transition: background-color 0.2s;
+}
+
+.Navbar a{
+    justify-content: center;
+    height: 100%;
+    margin: 50px 10px 10px 50px;
+
+    font-size: 1.5em;
+    text-align: center;
+
+    transition: color 0.4s;
+}
+.Navbar a:hover{
+    text-decoration: underline;
+}
+.Navbar a.uppercase{
+    font-weight: bold;
+}
+
+/* 600px and down */
+@media only screen and (max-width: 600px) {
+    .Navbar{ background-color: white; }
+    .Navbar a{ color: black; }
+}
+
+/* 600px and up */
+@media only screen and (min-width: 600px) {
+    .Navbar.black{ background-color: white; }
+    .Navbar.black a{ color: black; }
+    .Navbar.white{ background: none; }
+    .Navbar.white a{ color: white; }
+}

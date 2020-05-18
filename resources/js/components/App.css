@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html, body, #app, .body{ height: 100%; }
+a{ text-decoration: none; }
+.bold{ font-weight: bold; }
+
+.scrollable{ overflow-y: scroll; }
+.scrollable::-webkit-scrollbar { width: 2px; }
+.scrollable::-webkit-scrollbar-track { background: lightgray; }/* Track */
+.scrollable::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */
+.scrollable::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */
