@@ -1,48 +1,44 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Context from './Context';
 
-import { createStore, applyMiddleware } from 'redux';
-import { Provider } from 'react-redux';
-import reducers from '../reducers';
-import reduxThunk from 'redux-thunk';
+import Navbar from './Navbar';
+import Header from './Header';
+import NotFound from './NotFound';
 
-import Navbar from './General/Navbar';
-import Header from './General/Header';
-import Index from './General/Index';
-import Projects from './Projects';
-import NotFound from './util/NotFound';
+import Home from '../pages/Home/index';
+import Projects from '../pages/Projects/index';
 
 import './App.css';
 
 
 const App = () => (
-    <BrowserRouter>
-        <Navbar />
+    <React.Fragment>
         <Header />
-        <Switch>
-            <Route exact path='/' component={Index} />
-            <Route exact path='/projects' component={Projects} />
-            <Route component={NotFound} />
-        </Switch>
-    </BrowserRouter>
+
+        <BrowserRouter>
+            <Navbar />
+            <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/home' component={Home} />
+                <Route exact path='/projects' component={Projects} />
+                <Route component={NotFound} />
+            </Switch>
+        </BrowserRouter>
+
+    </React.Fragment>
+    
 );
 
 export default App;
 
 
-
-const store = createStore(
-    reducers,
-    {},
-    applyMiddleware(reduxThunk)
-);
-
-if (document.getElementById('app')){
+if (document.getElementById('app'))
     ReactDOM.render(
-        <Provider store={store}>
+        <Context.Provider>
             <App />
-        </Provider>, 
+        </Context.Provider>,
         document.getElementById('app')
     );
-}
+

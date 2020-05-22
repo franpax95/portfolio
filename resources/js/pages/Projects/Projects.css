@@ -1,0 +1,40 @@
+.Projects{
+    position: absolute;
+    width: 100%;
+    padding: 10vh 10vw;
+}
+
+.Projects .title{
+    width: 100%;
+    text-align:center;
+}
+.Projects .title a{ 
+    color: black; 
+    margin-left: 10px;
+}
+.Projects .title a:hover{ color: blue; }
+
+.Projects .list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Projects{
+        top: 150px;
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Projects{
+        top: 400px;
+        margin: 100px auto;
+    }
+}

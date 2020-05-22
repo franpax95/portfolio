@@ -1,0 +1,55 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "Entrenamiento",
+            "description": "Página desarrollada con React, Redux y Laravel. Puedes realizar cualquiera de las rutinas disponibles. Posee un timer y un contador para facilitar el  desarrollo de los ejercicios y una vista previa de éstos.",
+            "external_link": "https://entrenamiento-app.herokuapp.com/",
+            "github_link": "https://github.com/franpax95/Entrenamiento",
+            "nimg": 7,
+            "images": [
+                "/img/entrenamiento/img0.jpg",
+                "/img/entrenamiento/img1.jpg",
+                "/img/entrenamiento/img2.jpg",
+                "/img/entrenamiento/img3.jpg",
+                "/img/entrenamiento/img4.jpg",
+                "/img/entrenamiento/img5.jpg",
+                "/img/entrenamiento/img6.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Joe Williams",
+            "description": "Portfolio personal de Joe Williams, diseñador gráfico. Hecha en colaboración con @DMM161. Está hecha con React, Redux y Laravel.",
+            "external_link": "https://joewilliams.herokuapp.com/",
+            "github_link": "https://github.com/franpax95/JoeWilliamsWeb",
+            "nimg": 8,
+            "images": [
+                "/img/joewilliams/img0.jpg",
+                "/img/joewilliams/img1.jpg",
+                "/img/joewilliams/img2.jpg",
+                "/img/joewilliams/img3.jpg",
+                "/img/joewilliams/img4.jpg",
+                "/img/joewilliams/img5.jpg",
+                "/img/joewilliams/img6.jpg",
+                "/img/joewilliams/img7.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "AE Las Lagunas",
+            "description": "Prototipo de la que pudo ser la página oficial de la antigua Autoescuela Las Lagunas, ahora Autoescuela Servial. Está hecha con React.js y utiliza una EmailJS como API para el Contacto.",
+            "external_link": "",
+            "github_link": "https://github.com/franpax95/AELasLagunas-ReactJS",
+            "nimg": 6,
+            "images": [
+                "/img/aelaslagunas/img0.jpg",
+                "/img/aelaslagunas/img1.jpg",
+                "/img/aelaslagunas/img2.jpg",
+                "/img/aelaslagunas/img3.jpg",
+                "/img/aelaslagunas/img4.jpg",
+                "/img/aelaslagunas/img5.jpg"
+            ]
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import './styles/Navbar.css';
+import './Navbar.css';
 
 const Navbar = () => {
     const [height, setHeight] = useState(window.scrollY);
@@ -15,16 +15,18 @@ const Navbar = () => {
     return(
         <div className={`Navbar ${(height > 380) ? 'black' : 'white'}`}>
             <NavLink 
-                to="/"
-                className=""
-                activeClassName="uppercase"
+                to="/" 
+                className="" 
+                activeClassName="active"
                 isActive={(match, location) => {
                     if(!location.pathname.includes("projects")) return true;
-                }}>
+                }}
+            >
                 Sobre mí
             </NavLink>
-            <NavLink to="/projects" className="" activeClassName="uppercase">
-                Trabajos
+
+            <NavLink to="/projects" className="" activeClassName="active">
+                Mis trabajos
             </NavLink>
         </div>
     )
