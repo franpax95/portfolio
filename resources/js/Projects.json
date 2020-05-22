@@ -50,6 +50,21 @@
                 "/img/aelaslagunas/img4.jpg",
                 "/img/aelaslagunas/img5.jpg"
             ]
+        },
+        {
+            "id": 3,
+            "name": "Petgram",
+            "description": "Tutorial de PLATZI de React Avanzado. Aplicación móvil para subir y compartir fotos de mascotas usando Webpack, GraphQL, React Hooks, Reach Router, SEO y PWAs.",
+            "external_link": "https://curso-platzi-react-avanzado.franpax95.now.sh/",
+            "github_link": "https://github.com/franpax95/Curso-Platzi-React-Avanzado",
+            "nimg": 5,
+            "images": [
+                "/img/petgram/img0.jpg",
+                "/img/petgram/img1.jpg",
+                "/img/petgram/img2.jpg",
+                "/img/petgram/img3.jpg",
+                "/img/petgram/img4.jpg"
+            ]
         }
     ]
 }

@@ -6667,7 +6667,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Projects{\r\n    position: absolute;\r\n    width: 100%;\r\n    padding: 10vh 10vw;\r\n}\r\n\r\n.Projects .title{\r\n    width: 100%;\r\n    text-align:center;\r\n}\r\n.Projects .title a{ \r\n    color: black; \r\n    margin-left: 10px;\r\n}\r\n.Projects .title a:hover{ color: blue; }\r\n\r\n.Projects .list{\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n/* Extra small devices (phones, 600px and down) */\r\n@media only screen and (max-width: 600px) {\r\n    .Projects{\r\n        top: 150px;\r\n        width: 100%;\r\n        padding: 15px;\r\n    }\r\n}\r\n\r\n/* Small devices (portrait tablets and large phones, 600px and up) */\r\n@media only screen and (min-width: 600px) {\r\n    .Projects{\r\n        top: 400px;\r\n        margin: 100px auto;\r\n    }\r\n}\r\n", ""]);
+exports.push([module.i, ".Projects{\r\n    position: absolute;\r\n    width: 100%;\r\n    padding: 10vh 10vw;\r\n}\r\n\r\n.Projects .title{\r\n    width: 100%;\r\n    text-align:center;\r\n}\r\n\r\n.Projects .list{\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.Projects .notification{\r\n    width: 100%;\r\n    margin: 100px 0;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    font-size: 2em;\r\n    text-align: center;\r\n}\r\n\r\n.Projects .notification a{\r\n    color: black;\r\n    font-weight: bold;\r\n}\r\n.Projects .notification a:hover{\r\n    color: blue;\r\n    text-decoration: underline;\r\n}\r\n\r\n/* Extra small devices (phones, 600px and down) */\r\n@media only screen and (max-width: 600px) {\r\n    .Projects{\r\n        top: 150px;\r\n        width: 100%;\r\n        padding: 15px;\r\n    }\r\n\r\n    .Projects .aditional-text{\r\n        display: none;\r\n    }\r\n}\r\n\r\n/* Small devices (portrait tablets and large phones, 600px and up) */\r\n@media only screen and (min-width: 600px) {\r\n    .Projects{\r\n        top: 400px;\r\n        margin: 100px auto;\r\n    }\r\n}\r\n", ""]);
 
 // exports
 
@@ -70613,7 +70613,7 @@ module.exports = function(module) {
 /*! exports provided: projects, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"projects\":[{\"id\":0,\"name\":\"Entrenamiento\",\"description\":\"Página desarrollada con React, Redux y Laravel. Puedes realizar cualquiera de las rutinas disponibles. Posee un timer y un contador para facilitar el  desarrollo de los ejercicios y una vista previa de éstos.\",\"external_link\":\"https://entrenamiento-app.herokuapp.com/\",\"github_link\":\"https://github.com/franpax95/Entrenamiento\",\"nimg\":7,\"images\":[\"/img/entrenamiento/img0.jpg\",\"/img/entrenamiento/img1.jpg\",\"/img/entrenamiento/img2.jpg\",\"/img/entrenamiento/img3.jpg\",\"/img/entrenamiento/img4.jpg\",\"/img/entrenamiento/img5.jpg\",\"/img/entrenamiento/img6.jpg\"]},{\"id\":1,\"name\":\"Joe Williams\",\"description\":\"Portfolio personal de Joe Williams, diseñador gráfico. Hecha en colaboración con @DMM161. Está hecha con React, Redux y Laravel.\",\"external_link\":\"https://joewilliams.herokuapp.com/\",\"github_link\":\"https://github.com/franpax95/JoeWilliamsWeb\",\"nimg\":8,\"images\":[\"/img/joewilliams/img0.jpg\",\"/img/joewilliams/img1.jpg\",\"/img/joewilliams/img2.jpg\",\"/img/joewilliams/img3.jpg\",\"/img/joewilliams/img4.jpg\",\"/img/joewilliams/img5.jpg\",\"/img/joewilliams/img6.jpg\",\"/img/joewilliams/img7.jpg\"]},{\"id\":2,\"name\":\"AE Las Lagunas\",\"description\":\"Prototipo de la que pudo ser la página oficial de la antigua Autoescuela Las Lagunas, ahora Autoescuela Servial. Está hecha con React.js y utiliza una EmailJS como API para el Contacto.\",\"external_link\":\"\",\"github_link\":\"https://github.com/franpax95/AELasLagunas-ReactJS\",\"nimg\":6,\"images\":[\"/img/aelaslagunas/img0.jpg\",\"/img/aelaslagunas/img1.jpg\",\"/img/aelaslagunas/img2.jpg\",\"/img/aelaslagunas/img3.jpg\",\"/img/aelaslagunas/img4.jpg\",\"/img/aelaslagunas/img5.jpg\"]}]}");
+module.exports = JSON.parse("{\"projects\":[{\"id\":0,\"name\":\"Entrenamiento\",\"description\":\"Página desarrollada con React, Redux y Laravel. Puedes realizar cualquiera de las rutinas disponibles. Posee un timer y un contador para facilitar el  desarrollo de los ejercicios y una vista previa de éstos.\",\"external_link\":\"https://entrenamiento-app.herokuapp.com/\",\"github_link\":\"https://github.com/franpax95/Entrenamiento\",\"nimg\":7,\"images\":[\"/img/entrenamiento/img0.jpg\",\"/img/entrenamiento/img1.jpg\",\"/img/entrenamiento/img2.jpg\",\"/img/entrenamiento/img3.jpg\",\"/img/entrenamiento/img4.jpg\",\"/img/entrenamiento/img5.jpg\",\"/img/entrenamiento/img6.jpg\"]},{\"id\":1,\"name\":\"Joe Williams\",\"description\":\"Portfolio personal de Joe Williams, diseñador gráfico. Hecha en colaboración con @DMM161. Está hecha con React, Redux y Laravel.\",\"external_link\":\"https://joewilliams.herokuapp.com/\",\"github_link\":\"https://github.com/franpax95/JoeWilliamsWeb\",\"nimg\":8,\"images\":[\"/img/joewilliams/img0.jpg\",\"/img/joewilliams/img1.jpg\",\"/img/joewilliams/img2.jpg\",\"/img/joewilliams/img3.jpg\",\"/img/joewilliams/img4.jpg\",\"/img/joewilliams/img5.jpg\",\"/img/joewilliams/img6.jpg\",\"/img/joewilliams/img7.jpg\"]},{\"id\":2,\"name\":\"AE Las Lagunas\",\"description\":\"Prototipo de la que pudo ser la página oficial de la antigua Autoescuela Las Lagunas, ahora Autoescuela Servial. Está hecha con React.js y utiliza una EmailJS como API para el Contacto.\",\"external_link\":\"\",\"github_link\":\"https://github.com/franpax95/AELasLagunas-ReactJS\",\"nimg\":6,\"images\":[\"/img/aelaslagunas/img0.jpg\",\"/img/aelaslagunas/img1.jpg\",\"/img/aelaslagunas/img2.jpg\",\"/img/aelaslagunas/img3.jpg\",\"/img/aelaslagunas/img4.jpg\",\"/img/aelaslagunas/img5.jpg\"]},{\"id\":3,\"name\":\"Petgram\",\"description\":\"Tutorial de PLATZI de React Avanzado. Aplicación móvil para subir y compartir fotos de mascotas usando Webpack, GraphQL, React Hooks, Reach Router, SEO y PWAs.\",\"external_link\":\"https://curso-platzi-react-avanzado.franpax95.now.sh/\",\"github_link\":\"https://github.com/franpax95/Curso-Platzi-React-Avanzado\",\"nimg\":5,\"images\":[\"/img/petgram/img0.jpg\",\"/img/petgram/img1.jpg\",\"/img/petgram/img2.jpg\",\"/img/petgram/img3.jpg\",\"/img/petgram/img4.jpg\"]}]}");
 
 /***/ }),
 
@@ -71473,14 +71473,20 @@ var Projects = function Projects() {
     className: "Projects"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "title"
-  }, "Mis proyectos", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/franpax95",
-    target: "_blank"
+  }, "Mis proyectos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "list"
+  }, renderProjects()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "notification"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\xA1Echa un vistazo a mi GitHub ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "aditional-text"
+  }, "para ver todav\xEDa m\xE1s sobre mi"), "!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://github.com/franpax95"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-github"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "list"
-  }, renderProjects()), modalOn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_3__["Modal"], null) : '');
+  }), "Visitar Github", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-github"
+  }))), modalOn ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_3__["Modal"], null) : '');
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Projects);

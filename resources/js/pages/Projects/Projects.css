@@ -8,11 +8,6 @@
     width: 100%;
     text-align:center;
 }
-.Projects .title a{ 
-    color: black; 
-    margin-left: 10px;
-}
-.Projects .title a:hover{ color: blue; }
 
 .Projects .list{
     display: flex;
@@ -22,12 +17,38 @@
     flex-wrap: wrap;
 }
 
+.Projects .notification{
+    width: 100%;
+    margin: 100px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+    text-align: center;
+}
+
+.Projects .notification a{
+    color: black;
+    font-weight: bold;
+}
+.Projects .notification a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Projects{
         top: 150px;
         width: 100%;
         padding: 15px;
+    }
+
+    .Projects .aditional-text{
+        display: none;
     }
 }
 

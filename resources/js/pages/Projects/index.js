@@ -25,15 +25,15 @@ const Projects = () => {
     
     return (
         <div className="Projects">
-            <h1 className="title">
-                Mis proyectos
-                <a href="https://github.com/franpax95" target="_blank">
-                    <i className="fa fa-github"></i>
-                </a>
-            </h1>
+            <h1 className="title">Mis proyectos</h1>
             
             <div className="list">
                 {renderProjects()}
+            </div>
+
+            <div className="notification">
+                <div>¡Echa un vistazo a mi GitHub <span className="aditional-text">para ver todavía más sobre mi</span>!</div>
+                <a target="_blank" href="https://github.com/franpax95"><i className="fa fa-github"></i>Visitar Github<i className="fa fa-github"></i></a>
             </div>
             {(modalOn) ? <Modal /> : ''}
         </div>
